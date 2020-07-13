@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_teams">
+        <item>Teunguetch fc</item>
+        <item>Jaaraf</item>
+        <item>AS Dounes</item>
+        <item>Dakar Sacré Coeur</item>
+        <item> Casa Sports</item>
+        <item>As Pikine</item>
+        <item>Stade de Mbour</item>
+        <item>Mbour Pc</item>
+        <item>Us Gorée</item>
+        <item>Diambars</item>
+        <item>Ndiambour</item>
+        <item> Génération foot</item>
+        <item>Niarry Tally</item>
+        <item>CNEPS Excellence</item>
+    </string-array>
+    <string-array name="tab_description">
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Zinguinchor</item>
+        <item>Région de Dakar</item>
+        <item>Région de Thiès</item>
+        <item>Région de Thiès</item>
+        <item>Région de Dakar</item>
+        <item>Région de Thiès</item>
+        <item>Région de Louga</item>
+        <item>Région de Thiès</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+    </string-array>
+    <integer-array name="image_team">
+        <item>@drawable/teunguetch</item>
+        <item>@drawable/jaaraf</item>
+        <item>@drawable/douane</item>
+        <item>@drawable/dsc</item>
+        <item>@drawable/casa</item>
+        <item>@drawable/pkine</item>
+        <item>@drawable/stadembour</item>
+        <item>@drawable/moburpc</item>
+        <item>@drawable/goree</item>
+        <item>@drawable/diambars</item>
+        <item>@drawable/ndiambour</item>
+        <item>@drawable/genefoot</item>
+        <item>@drawable/ngb</item>
+        <item>@drawable/excellence</item>
+    </integer-array>
+</resources>
