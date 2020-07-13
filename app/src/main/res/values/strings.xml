@@ -16,11 +16,8 @@
     <string name="error_connection">Connection error</string>
     <string name="wait">Please wait</string>
     <string name="team">Teams</string>
-<<<<<<< HEAD
     <string name="ticket">Reserve a ticket</string>
     <string name="cancel">Cancel</string>
-=======
->>>>>>> f0250f6... auth
     <string name="description">
         The Senegalese Professional Football League (LSFP) is an association governed by articles 811
         and following of the Code of Civil and Commercial Obligations of Senegal.
@@ -43,11 +40,8 @@
 
     <string name="home_second">Home Second</string>
     <string name="title_activity_stadium">Map</string>
-<<<<<<< HEAD
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-=======
->>>>>>> f0250f6... auth
     <!--<string name="signUp">Sign Up</string>-->
 </resources>

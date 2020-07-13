@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
     <string-array name="tab_teams">
         <item>Teunguetch fc</item>
         <item>Jaaraf</item>
@@ -49,7 +48,4 @@
         <item>@drawable/ngb</item>
         <item>@drawable/excellence</item>
     </integer-array>
-=======
-
->>>>>>> f0250f6... auth
 </resources>

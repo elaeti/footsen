@@ -18,11 +18,8 @@
     <string name="wait">Veuillez patienter SVP ...</string>
     <string name="success_save">Enregistrement réussi</string>
     <string name="menu_home">Aceuil</string>
-<<<<<<< HEAD
     <string name="ticket">Reserver un billet</string>
     <string name="cancel">Retour</string>
-=======
->>>>>>> f0250f6... auth
     <string name="description">
         La Ligue Sénégalaise de Football Professionnel (LSFP) est une association régie par les articles 811
         et suivants du Code des Obligations civiles et commerciales du Sénégal.

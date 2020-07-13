@@ -42,52 +42,31 @@
             android:layout_gravity="center"
             android:orientation="vertical"
             android:layout_marginTop="@dimen/size_all">
-<<<<<<< HEAD
             <Button
                 android:layout_width="@dimen/size_btnWidth"
                 android:layout_height="@dimen/size_btnHeight"
-=======
-
-            <Button
-                android:id="@+id/signIn"
-                android:layout_width="258dp"
-                android:layout_height="wrap_content"
->>>>>>> f0250f6... auth
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/size_all"
                 android:background="@drawable/btn"
                 android:text="@string/signIn"
                 android:textColor="@color/colorWhite"
-<<<<<<< HEAD
                 android:textSize="@dimen/size_title"
                 android:id="@+id/signIn"></Button>
             <Button
                 android:layout_width="@dimen/size_btnWidth"
                 android:layout_height="@dimen/size_btnHeight"
-=======
-                android:textSize="@dimen/size_title"></Button>
-
-            <Button
-                android:id="@+id/signUp"
-                android:layout_width="252dp"
-                android:layout_height="wrap_content"
->>>>>>> f0250f6... auth
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/size_all"
                 android:background="@drawable/btn"
                 android:text="@string/signUp"
                 android:textColor="@color/colorWhite"
-<<<<<<< HEAD
                 android:textSize="@dimen/size_title"
                 android:id="@+id/signUp"></Button>
-=======
-                android:textSize="@dimen/size_title"></Button>
->>>>>>> f0250f6... auth
 
 
         </LinearLayout>
 
-        
+
 
     </LinearLayout>
 

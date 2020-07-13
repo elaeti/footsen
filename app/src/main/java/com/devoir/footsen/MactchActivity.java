@@ -41,9 +41,11 @@ public class MactchActivity extends Fragment {
                 , container, false);
         listMatch=view.findViewById(R.id.listMatch);
 
-        getJSON("http://4f1c2b66933d.ngrok.io/senfoot/getMatch.php");
+        getJSON("http://0986972dbeaf.ngrok.io/senfoot/getMatch.php");
 
-
+        String wait= getString(R.string.wait);
+        Toast.makeText(getActivity(), wait, Toast.LENGTH_SHORT).show();
+        
         return view;
     }
 

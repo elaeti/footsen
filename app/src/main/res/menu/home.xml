@@ -4,10 +4,6 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-<<<<<<< HEAD
         android:title="@string/action_settings"
-=======
-        android:title="@string/help"
->>>>>>> f0250f6... auth
         app:showAsAction="never" />
 </menu>
