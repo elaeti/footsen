@@ -32,20 +32,5 @@
         <item>Région de Dakar</item>
         <item>Région de Dakar</item>
     </string-array>
-    <integer-array name="image_team">
-        <item>@drawable/teunguetch</item>
-        <item>@drawable/jaaraf</item>
-        <item>@drawable/douane</item>
-        <item>@drawable/dsc</item>
-        <item>@drawable/casa</item>
-        <item>@drawable/pkine</item>
-        <item>@drawable/stadembour</item>
-        <item>@drawable/moburpc</item>
-        <item>@drawable/goree</item>
-        <item>@drawable/diambars</item>
-        <item>@drawable/ndiambour</item>
-        <item>@drawable/genefoot</item>
-        <item>@drawable/ngb</item>
-        <item>@drawable/excellence</item>
-    </integer-array>
+
 </resources>

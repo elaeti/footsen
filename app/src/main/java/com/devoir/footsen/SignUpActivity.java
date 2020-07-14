@@ -50,6 +50,8 @@ public class SignUpActivity extends AppCompatActivity {
                    if (b == true){
                        Toast.makeText(SignUpActivity.this, "Utilisateur créé", Toast.LENGTH_SHORT).show();
                        Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
+                       intent.putExtra("USERNAME",userName);
+                       intent.putExtra("PASSWORD", passWord);
                        startActivity(intent);}
                    else
                    {Toast.makeText(SignUpActivity.this, "Utilisateur non créé", Toast.LENGTH_SHORT).show();}

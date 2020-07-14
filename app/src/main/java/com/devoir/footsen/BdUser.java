@@ -3,6 +3,7 @@ package com.devoir.footsen;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -110,5 +111,28 @@ public class BdUser extends SQLiteOpenHelper {
         return list;
     }
 
+
+
+    public boolean checkUserExist(String userName, String passWord) throws SQLException
+    {
+        String[] columns = {"userName"};
+       // db = openDatabase();
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        String selection =" userName=?  and passWord = ?";
+        String[] selectionArgs = {userName, passWord};
+
+        Cursor cursor = db.query("user", columns, selection, selectionArgs, null, null, null);
+        int count = cursor.getCount();
+
+        cursor.close();
+        close();
+
+        if(count > 0){
+            return true;
+        } else {
+            return false;
+        }
+    }
 
 }
